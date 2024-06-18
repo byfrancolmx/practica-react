@@ -1,0 +1,107 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.main-body {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.followers-body {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.ig-followcard {
+  display: flex;
+  justify-content: right;
+}
+
+.ig-followcard-header {
+  display: flex;
+  align-items: center;
+}
+
+.picuser {
+  width: 48px;
+  height: 48px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.ig-username {
+  margin: unset;
+}
+
+.ig-name {
+  margin: unset;
+}
+
+.ig-followbutton {
+  border: none;
+  color: rgb(0, 204, 255);
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.ig-followbutton:hover {
+  color: rgb(1, 72, 131);
+}
+
+.modal-content {
+  text-align: center;
+  width: 450px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.picuser-unfollow {
+  margin: 35px 0px 30px;
+  height: 90px;
+  width: 90px;
+  border-radius: 100px;
+}
+
+.username-unfollow {
+  margin: unset;
+  padding: 0px 0px 50px;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  border-top: 1px solid rgba(128, 128, 128, 0.555);
+}
+
+.unfollow.btn {
+  color: red;
+  background: none;
+  border: none;
+  margin: 20px;
+}
+
+.unfollow.btn:hover {
+  background: none;
+}
+
+.unfollow.btn:active {
+  background: none;
+  color: red;
+}
+
+.cancel.btn {
+  color: black;
+  background: none;
+  border: none;
+}
+
+.cancel.btn:hover {
+  background: none;
+}
+
+.cancel.btn:active {
+  color: black;
+  background: none;
+}
